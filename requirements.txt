@@ -1,0 +1,6 @@
+certifi==2021.5.30
+hidapi==0.10.1
+joycon-python==0.2.4
+PyGLM==2.2.1
+python-rtmidi==1.4.9
+tqdm==4.62.0

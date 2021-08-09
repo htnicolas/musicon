@@ -1,0 +1,28 @@
+name: joycon
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2021.7.5=hecd8cb5_1
+  - certifi=2021.5.30=py37hecd8cb5_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20210216=h9ed2024_1
+  - libffi=3.2.1=h0a44026_1007
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.1.1k=h9ed2024_0
+  - pip=21.2.2=py37hecd8cb5_0
+  - python=3.7.4=h359304d_1
+  - readline=7.0=h1de35cc_5
+  - setuptools=52.0.0=py37hecd8cb5_0
+  - sqlite=3.33.0=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - pip:
+    - hidapi==0.10.1
+    - joycon-python==0.2.4
+    - pyglm==2.2.1
+    - python-rtmidi==1.4.9
+    - tqdm==4.62.0
+prefix: /usr/local/anaconda3/envs/joycon
+
